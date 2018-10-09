@@ -1,0 +1,8 @@
+/var/log/robot.log
+{
+    rotate 3
+    hourly
+    missingok
+    notifempty
+    maxsize 128k
+}

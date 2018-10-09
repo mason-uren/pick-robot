@@ -1,0 +1,13 @@
+[Unit]
+Description = Robot Service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type = forking
+ExecStart = /usr/local/bin/robot.sh start
+ExecStop = /usr/local/bin/robot.sh stop
+Restart=no
+User=root
+[Install]
+WantedBy=multi-user.target

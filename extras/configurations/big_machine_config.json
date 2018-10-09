@@ -1,0 +1,64 @@
+{
+	"targetGenerator": {
+		"boxStart": [-630, -360, -110],
+		"boxEnd": [-160, -140, -385],
+		"delta": [70, 105, 15],
+		"dropLocation": [-939, 0, -305]
+	},
+	"axes": [{
+		"label": "X",
+		"stagingArea": -655,
+		"travelLimitmm": -1000,
+		"motors": [{
+			"motorNumber": 0,
+			"accelCurrent": 62,
+			"decelCurrent": 62,
+			"holdCurrent": 10,
+			"runCurrent": 62,
+			"maxStepsPerSec": 800,
+			"stepsPerRev": 200,
+			"invert": true,
+			"mmPerRev": 59.6902604182
+		}]
+	}, {
+		"label": "Y",
+		"stagingArea": -360,
+		"travelLimitmm": -370,
+		"motors": [{
+			"motorNumber": 1,
+			"accelCurrent": 62,
+			"decelCurrent": 62,
+			"holdCurrent": 10,
+			"runCurrent": 62,
+			"maxStepsPerSec": 800,
+			"stepsPerRev": 200,
+			"invert": true,
+			"mmPerRev": 30
+		}]
+	}, {
+		"label": "Z",
+		"stagingArea": -110,
+		"travelLimitmm": -385,
+		"motors": [{
+			"motorNumber": 2,
+			"accelCurrent": 62,
+			"decelCurrent": 62,
+			"holdCurrent": 10,
+			"runCurrent": 62,
+			"maxStepsPerSec": 800,
+			"stepsPerRev": 200,
+			"mmPerRev": 30,
+			"invert": false
+		}, {
+			"motorNumber": 3,
+			"accelCurrent": 62,
+			"decelCurrent": 62,
+			"holdCurrent": 10,
+			"runCurrent": 62,
+			"maxStepsPerSec": 800,
+			"stepsPerRev": 200,
+			"mmPerRev": 30,
+			"invert": false
+		}]
+	}]
+}

@@ -1,0 +1,4 @@
+pickbot0.local
+pickbot1.local
+pickbot2.local
+pickbot3.local

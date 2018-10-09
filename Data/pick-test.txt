@@ -1,0 +1,1614 @@
+ROBOT 100
+=========
+Pick attempt 3 times, then hit error
+
+Command Help:
+estop:		Immediately stops machine motion and requires a zero return to resume picking.
+pick:		Begins the pick sequence, if we have been zeroed, and we're waiting in the ready state.
+drop:		Turns off the gripper if we're waiting in the drop location after a pick. Returns back to the staging area for the next pick after dropping the item.
+newbox:		Resets the target generation to the top of the box. This is necessary after all pick locations have been attempted.
+status:		Reports the current state of the machine and number of items picked.
+zero:		Zero returns the machine.
+zneeded:	Zero returns the machine only if it is needed.
+Configuration sent.
+======== Errors ========
+Flagged Error: EF_UNDERVOLTAGE_LOCKOUT
+Number of errors: 1
+(1) Number of items picked: 0 Status state: PC_NEEDS_ZERO
+Currently Idle X: 0 Y: 0 Z: 0
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+Command received: 6
+Sent command to robot
+(54838) Number of items picked: 0 Status state: PC_ZERO_RETURN_WAIT
+(76896) Number of items picked: 0 Status state: PC_READY
+Currently Idle X: -655 Y: -360 Z: -110
+Command received: 2
+Sent command to robot
+(95960) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(96339) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(96827) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -630 Y: -360 Z: -90
+(96828) Number of items picked: 0 Status state: PC_PROBING
+(106015) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(109393) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -630 Y: -360 Z: 0
+(109394) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(109990) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(111097) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -570 Y: -360 Z: -90
+(111098) Number of items picked: 0 Status state: PC_PROBING
+(120273) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Suction on: false
+Suction: 32255.015625 = BAD SUCTION
+Suction on: false
+Suction: 32141.421875 = BAD SUCTION
+Suction on: false
+Suction: 32653.406250 = BAD SUCTION
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+(123650) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -570 Y: -360 Z: 0
+(123651) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(124247) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(125353) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -510 Y: -360 Z: -90
+(125354) Number of items picked: 0 Status state: PC_PROBING
+(134525) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(137900) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -510 Y: -360 Z: 0
+(137901) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(138497) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(139602) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -450 Y: -360 Z: -90
+(139603) Number of items picked: 0 Status state: PC_PROBING
+(148771) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Suction on: false
+Suction: 32255.015625 = BAD SUCTION
+Suction on: false
+Suction: 31743.031250 = BAD SUCTION
+Suction on: false
+Suction: 31231.046875 = BAD SUCTION
+Suction on: false
+Suction: 30719.062500 = BAD SUCTION
+Suction on: false
+Suction: 30207.078125 = BAD SUCTION
+Suction on: false
+Suction: 29695.093750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 29183.109375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 28671.125000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 28159.140625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 27647.156250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 27135.171875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26623.187500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26111.203125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25599.218750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25087.234375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24575.250000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24063.265625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23551.281250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23039.296875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22527.312500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22015.328125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21503.343750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20991.359375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20479.375000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 19967.390625 = GOOD SUCTION
+(148802) Number of items picked: 0 Status state: STATE UNDEFINED
+Currently Idle X: -450 Y: -360 Z: -370
+Suction on: false
+Suction: 19455.406250 = GOOD SUCTION
+Suction on: false
+Suction: 18943.421875 = GOOD SUCTION
+Suction on: false
+Suction: 18431.437500 = GOOD SUCTION
+Suction on: false
+Suction: 17919.453125 = GOOD SUCTION
+Suction on: false
+Suction: 17407.468750 = GOOD SUCTION
+Suction on: false
+Suction: 16895.484375 = GOOD SUCTION
+Suction on: false
+Suction: 16383.500000 = GOOD SUCTION
+Suction on: false
+Suction: 15871.515625 = GOOD SUCTION
+Suction on: false
+Suction: 15359.531250 = GOOD SUCTION
+Suction on: false
+Suction: 14847.546875 = GOOD SUCTION
+Suction on: false
+Suction: 14335.562500 = GOOD SUCTION
+Suction on: false
+Suction: 13823.578125 = GOOD SUCTION
+Suction on: false
+Suction: 13311.593750 = GOOD SUCTION
+Suction on: false
+Suction: 12799.609375 = GOOD SUCTION
+Suction on: false
+Suction: 12287.625000 = GOOD SUCTION
+Suction on: false
+Suction: 11775.640625 = GOOD SUCTION
+Suction on: false
+Suction: 11263.656250 = GOOD SUCTION
+Suction on: false
+Suction: 10751.671875 = GOOD SUCTION
+Suction on: false
+Suction: 10239.687500 = GOOD SUCTION
+Suction on: false
+Suction: 9727.703125 = GOOD SUCTION
+Suction on: false
+Suction: 9215.718750 = GOOD SUCTION
+Suction on: false
+Suction: 8703.734375 = GOOD SUCTION
+Suction on: false
+Suction: 8191.750000 = GOOD SUCTION
+Suction on: false
+Suction: 7679.765625 = GOOD SUCTION
+Suction on: false
+Suction: 7167.781250 = GOOD SUCTION
+Suction on: false
+Suction: 6655.796875 = GOOD SUCTION
+Suction on: false
+Suction: 6143.812500 = GOOD SUCTION
+Suction on: false
+Suction: 5631.828125 = GOOD SUCTION
+Suction on: false
+Suction: 5119.843750 = GOOD SUCTION
+Suction on: false
+Suction: 4607.859375 = GOOD SUCTION
+Suction on: false
+Suction: 4095.875000 = GOOD SUCTION
+Suction on: false
+Suction: 3583.890625 = GOOD SUCTION
+Suction on: false
+Suction: 3071.906250 = GOOD SUCTION
+Suction on: false
+Suction: 2559.921875 = GOOD SUCTION
+Suction on: false
+Suction: 2047.937500 = GOOD SUCTION
+Suction on: false
+Suction: 1535.953125 = GOOD SUCTION
+Suction on: false
+Suction: 1023.968750 = GOOD SUCTION
+Suction on: false
+Suction: 511.984375 = GOOD SUCTION
+Suction on: false
+Suction: 0.000000 = GOOD SUCTION
+Command received: 1
+Sent command to robot
+
+
+ROBOT 100
+=========
+Robot picked item, then drop command triggered e-stop
+
+Command Help:
+estop:		Immediately stops machine motion and requires a zero return to resume picking.
+pick:		Begins the pick sequence, if we have been zeroed, and we're waiting in the ready state.
+drop:		Turns off the gripper if we're waiting in the drop location after a pick. Returns back to the staging area for the next pick after dropping the item.
+newbox:		Resets the target generation to the top of the box. This is necessary after all pick locations have been attempted.
+status:		Reports the current state of the machine and number of items picked.
+zero:		Zero returns the machine.
+zneeded:	Zero returns the machine only if it is needed.
+Configuration sent.
+======== Errors ========
+Flagged Error: EF_UNDERVOLTAGE_LOCKOUT
+Number of errors: 1
+(1) Number of items picked: 0 Status state: PC_NEEDS_ZERO
+Currently Idle X: 0 Y: 0 Z: 0
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+Command received: 6
+Sent command to robot
+(6917) Number of items picked: 0 Status state: PC_ZERO_RETURN_WAIT
+(35292) Number of items picked: 0 Status state: PC_READY
+Currently Idle X: -655 Y: -360 Z: -110
+Command received: 2
+Sent command to robot
+(59092) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(59471) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(59960) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -630 Y: -360 Z: -90
+(59961) Number of items picked: 0 Status state: PC_PROBING
+(69143) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Suction on: false
+Suction: 32696.265625 = BAD SUCTION
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+(72519) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -630 Y: -360 Z: 0
+(72520) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(73116) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(74221) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -570 Y: -360 Z: -90
+(74222) Number of items picked: 0 Status state: PC_PROBING
+(83395) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(86770) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -570 Y: -360 Z: 0
+(86771) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(87367) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(88472) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -510 Y: -360 Z: -90
+(88473) Number of items picked: 0 Status state: PC_PROBING
+(97642) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Suction on: false
+Suction: 32255.015625 = BAD SUCTION
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+(101016) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -510 Y: -360 Z: 0
+(101017) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(101613) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(102719) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -450 Y: -360 Z: -90
+(102720) Number of items picked: 0 Status state: PC_PROBING
+(111891) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(115266) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -450 Y: -360 Z: 0
+(115267) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(115863) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(116968) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -390 Y: -360 Z: -90
+(116969) Number of items picked: 0 Status state: PC_PROBING
+(126140) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(129513) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -390 Y: -360 Z: 0
+(129514) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(130110) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(131215) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -330 Y: -360 Z: -90
+(131216) Number of items picked: 0 Status state: PC_PROBING
+Suction on: true
+Suction: 32583.562500 = BAD SUCTION
+Suction on: true
+Suction: 32400.328125 = BAD SUCTION
+Suction on: true
+Suction: 32216.828125 = BAD SUCTION
+Suction on: true
+Suction: 32033.406250 = BAD SUCTION
+Suction on: true
+Suction: 31850.015625 = BAD SUCTION
+Suction on: true
+Suction: 31666.578125 = BAD SUCTION
+Suction on: true
+Suction: 31483.140625 = BAD SUCTION
+Suction on: true
+Suction: 31299.703125 = BAD SUCTION
+Suction on: true
+Suction: 31116.265625 = BAD SUCTION
+Suction on: true
+Suction: 30932.609375 = BAD SUCTION
+Suction on: true
+Suction: 30749.000000 = BAD SUCTION
+Suction on: true
+Suction: 30565.468750 = BAD SUCTION
+Suction on: true
+Suction: 30381.937500 = BAD SUCTION
+Suction on: true
+Suction: 30198.640625 = BAD SUCTION
+Suction on: true
+Suction: 30015.156250 = BAD SUCTION
+Suction on: true
+Suction: 29831.718750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29648.375000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29465.234375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29281.906250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29098.578125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28915.046875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28731.609375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28548.281250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28364.937500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28181.546875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27998.000000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27814.453125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27631.328125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27448.156250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27264.765625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27081.484375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26898.218750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26714.953125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26531.593750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26348.218750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26164.796875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25981.515625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25798.062500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25614.671875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25431.281250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25247.921875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25064.546875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24881.281250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24698.031250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24514.500000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24330.968750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24147.687500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23964.390625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23781.078125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23597.812500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23414.421875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23231.000000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23047.578125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22864.375000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22680.828125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22497.406250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22314.031250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22130.859375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21947.484375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21764.109375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21580.812500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21397.531250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21214.406250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21031.156250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20980.781250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20902.750000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20824.578125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20746.265625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20667.968750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20589.531250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20511.296875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20433.078125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20354.718750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20276.312500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20198.078125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20119.921875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20041.937500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 19963.750000 = GOOD SUCTION
+(140124) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Currently Idle X: -330 Y: -360 Z: -370
+Suction on: true
+Suction: 19885.515625 = GOOD SUCTION
+(140125) Number of items picked: 0 Status state: PC_HAS_ITEM
+Currently Idle X: -330 Y: -360 Z: -370
+Suction on: true
+Suction: 19807.437500 = GOOD SUCTION
+(140126) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Suction on: true
+Suction: 19729.312500 = GOOD SUCTION
+Suction on: true
+Suction: 19650.953125 = GOOD SUCTION
+Suction on: true
+Suction: 19572.593750 = GOOD SUCTION
+Suction on: true
+Suction: 19494.062500 = GOOD SUCTION
+Suction on: true
+Suction: 19415.296875 = GOOD SUCTION
+Suction on: true
+Suction: 19336.390625 = GOOD SUCTION
+Suction on: true
+Suction: 19257.718750 = GOOD SUCTION
+Suction on: true
+Suction: 19179.046875 = GOOD SUCTION
+Suction on: true
+Suction: 19100.343750 = GOOD SUCTION
+Suction on: true
+Suction: 19021.312500 = GOOD SUCTION
+Suction on: true
+Suction: 18942.671875 = GOOD SUCTION
+Suction on: true
+Suction: 18863.875000 = GOOD SUCTION
+Suction on: true
+Suction: 18784.921875 = GOOD SUCTION
+Suction on: true
+Suction: 18706.187500 = GOOD SUCTION
+Suction on: true
+Suction: 18627.250000 = GOOD SUCTION
+Suction on: true
+Suction: 18548.296875 = GOOD SUCTION
+Suction on: true
+Suction: 18469.421875 = GOOD SUCTION
+Suction on: true
+Suction: 18390.718750 = GOOD SUCTION
+Suction on: true
+Suction: 18311.750000 = GOOD SUCTION
+Suction on: true
+Suction: 18232.781250 = GOOD SUCTION
+Suction on: true
+Suction: 18154.296875 = GOOD SUCTION
+Suction on: true
+Suction: 18076.015625 = GOOD SUCTION
+Suction on: true
+Suction: 17997.187500 = GOOD SUCTION
+Suction on: true
+Suction: 17918.375000 = GOOD SUCTION
+Suction on: true
+Suction: 17839.453125 = GOOD SUCTION
+Suction on: true
+Suction: 17760.890625 = GOOD SUCTION
+Suction on: true
+Suction: 17682.265625 = GOOD SUCTION
+Suction on: true
+Suction: 17603.625000 = GOOD SUCTION
+Suction on: true
+Suction: 17524.937500 = GOOD SUCTION
+Suction on: true
+Suction: 17445.921875 = GOOD SUCTION
+Suction on: true
+Suction: 17367.125000 = GOOD SUCTION
+Suction on: true
+Suction: 17288.468750 = GOOD SUCTION
+Suction on: true
+Suction: 17209.406250 = GOOD SUCTION
+Suction on: true
+Suction: 17130.734375 = GOOD SUCTION
+Suction on: true
+Suction: 17051.765625 = GOOD SUCTION
+Suction on: true
+Suction: 16972.781250 = GOOD SUCTION
+Suction on: true
+Suction: 16894.203125 = GOOD SUCTION
+Suction on: true
+Suction: 16815.125000 = GOOD SUCTION
+Suction on: true
+Suction: 16736.281250 = GOOD SUCTION
+Suction on: true
+Suction: 16657.562500 = GOOD SUCTION
+Suction on: true
+Suction: 16578.843750 = GOOD SUCTION
+Suction on: true
+Suction: 16500.000000 = GOOD SUCTION
+Suction on: true
+Suction: 16421.265625 = GOOD SUCTION
+Suction on: true
+Suction: 16342.500000 = GOOD SUCTION
+Suction on: true
+Suction: 16263.687500 = GOOD SUCTION
+Suction on: true
+Suction: 16184.875000 = GOOD SUCTION
+Suction on: true
+Suction: 16106.062500 = GOOD SUCTION
+Suction on: true
+Suction: 16027.343750 = GOOD SUCTION
+Suction on: true
+Suction: 15990.828125 = GOOD SUCTION
+Suction on: true
+Suction: 16016.578125 = GOOD SUCTION
+Suction on: true
+Suction: 16041.734375 = GOOD SUCTION
+Suction on: true
+Suction: 16067.125000 = GOOD SUCTION
+Suction on: true
+Suction: 16092.562500 = GOOD SUCTION
+Suction on: true
+Suction: 16118.171875 = GOOD SUCTION
+Suction on: true
+Suction: 16143.390625 = GOOD SUCTION
+Suction on: true
+Suction: 16168.921875 = GOOD SUCTION
+Suction on: true
+Suction: 16194.562500 = GOOD SUCTION
+Suction on: true
+Suction: 16220.125000 = GOOD SUCTION
+Suction on: true
+Suction: 16245.765625 = GOOD SUCTION
+Suction on: true
+Suction: 16271.453125 = GOOD SUCTION
+Suction on: true
+Suction: 16296.906250 = GOOD SUCTION
+Suction on: true
+Suction: 16322.375000 = GOOD SUCTION
+Suction on: true
+Suction: 16348.000000 = GOOD SUCTION
+Suction on: true
+Suction: 16373.578125 = GOOD SUCTION
+Suction on: true
+Suction: 16399.062500 = GOOD SUCTION
+Suction on: true
+Suction: 16424.734375 = GOOD SUCTION
+Suction on: true
+Suction: 16450.203125 = GOOD SUCTION
+Suction on: true
+Suction: 16475.953125 = GOOD SUCTION
+Suction on: true
+Suction: 16501.484375 = GOOD SUCTION
+Suction on: true
+Suction: 16526.640625 = GOOD SUCTION
+Suction on: true
+Suction: 16552.187500 = GOOD SUCTION
+Suction on: true
+Suction: 16577.750000 = GOOD SUCTION
+Suction on: true
+Suction: 16603.125000 = GOOD SUCTION
+Suction on: true
+Suction: 16628.671875 = GOOD SUCTION
+Suction on: true
+Suction: 16654.000000 = GOOD SUCTION
+Suction on: true
+Suction: 16679.703125 = GOOD SUCTION
+Suction on: true
+Suction: 16705.640625 = GOOD SUCTION
+Suction on: true
+Suction: 16731.343750 = GOOD SUCTION
+Suction on: true
+Suction: 16756.531250 = GOOD SUCTION
+Suction on: true
+Suction: 16781.750000 = GOOD SUCTION
+Suction on: true
+Suction: 16807.421875 = GOOD SUCTION
+Suction on: true
+Suction: 16832.781250 = GOOD SUCTION
+Suction on: true
+Suction: 16858.421875 = GOOD SUCTION
+Suction on: true
+Suction: 16883.828125 = GOOD SUCTION
+Suction on: true
+Suction: 16909.156250 = GOOD SUCTION
+Suction on: true
+Suction: 16934.671875 = GOOD SUCTION
+Suction on: true
+Suction: 16960.203125 = GOOD SUCTION
+Suction on: true
+Suction: 16985.609375 = GOOD SUCTION
+Suction on: true
+Suction: 17011.078125 = GOOD SUCTION
+Suction on: true
+Suction: 17036.406250 = GOOD SUCTION
+Suction on: true
+Suction: 17062.171875 = GOOD SUCTION
+Suction on: true
+Suction: 17087.609375 = GOOD SUCTION
+Suction on: true
+Suction: 17112.671875 = GOOD SUCTION
+Suction on: true
+Suction: 17137.718750 = GOOD SUCTION
+Suction on: true
+Suction: 17163.140625 = GOOD SUCTION
+Suction on: true
+Suction: 17188.656250 = GOOD SUCTION
+Suction on: true
+Suction: 17214.250000 = GOOD SUCTION
+Suction on: true
+Suction: 17239.656250 = GOOD SUCTION
+Suction on: true
+Suction: 17265.031250 = GOOD SUCTION
+Suction on: true
+Suction: 17290.406250 = GOOD SUCTION
+Suction on: true
+Suction: 17315.937500 = GOOD SUCTION
+Suction on: true
+Suction: 17341.625000 = GOOD SUCTION
+Suction on: true
+Suction: 17366.859375 = GOOD SUCTION
+Suction on: true
+Suction: 17392.187500 = GOOD SUCTION
+Suction on: true
+Suction: 17417.734375 = GOOD SUCTION
+Suction on: true
+Suction: 17443.125000 = GOOD SUCTION
+Suction on: true
+Suction: 17468.390625 = GOOD SUCTION
+Suction on: true
+Suction: 17493.421875 = GOOD SUCTION
+Suction on: true
+Suction: 17518.890625 = GOOD SUCTION
+Suction on: true
+Suction: 17544.593750 = GOOD SUCTION
+Suction on: true
+Suction: 17570.140625 = GOOD SUCTION
+Suction on: true
+Suction: 17592.937500 = GOOD SUCTION
+Suction on: true
+Suction: 17818.359375 = GOOD SUCTION
+Suction on: true
+Suction: 17798.593750 = GOOD SUCTION
+Suction on: true
+Suction: 17778.718750 = GOOD SUCTION
+Suction on: true
+Suction: 17758.781250 = GOOD SUCTION
+Suction on: true
+Suction: 17738.875000 = GOOD SUCTION
+Suction on: true
+Suction: 17718.781250 = GOOD SUCTION
+Suction on: true
+Suction: 17698.984375 = GOOD SUCTION
+Suction on: true
+Suction: 17679.156250 = GOOD SUCTION
+Suction on: true
+Suction: 17659.343750 = GOOD SUCTION
+Suction on: true
+Suction: 17639.203125 = GOOD SUCTION
+Suction on: true
+Suction: 17618.937500 = GOOD SUCTION
+Suction on: true
+Suction: 17598.828125 = GOOD SUCTION
+Suction on: true
+Suction: 17578.703125 = GOOD SUCTION
+Suction on: true
+Suction: 17558.656250 = GOOD SUCTION
+Suction on: true
+Suction: 17538.765625 = GOOD SUCTION
+Suction on: true
+Suction: 17518.687500 = GOOD SUCTION
+Suction on: true
+Suction: 17498.921875 = GOOD SUCTION
+Suction on: true
+Suction: 17479.046875 = GOOD SUCTION
+Suction on: true
+Suction: 17459.343750 = GOOD SUCTION
+Suction on: true
+Suction: 17439.343750 = GOOD SUCTION
+Suction on: true
+Suction: 17419.359375 = GOOD SUCTION
+Suction on: true
+Suction: 17399.500000 = GOOD SUCTION
+Suction on: true
+Suction: 17379.593750 = GOOD SUCTION
+Suction on: true
+Suction: 17359.703125 = GOOD SUCTION
+Suction on: true
+Suction: 17339.796875 = GOOD SUCTION
+Suction on: true
+Suction: 17319.718750 = GOOD SUCTION
+Suction on: true
+Suction: 17299.562500 = GOOD SUCTION
+Suction on: true
+Suction: 17279.468750 = GOOD SUCTION
+Suction on: true
+Suction: 17259.406250 = GOOD SUCTION
+Suction on: true
+Suction: 17239.546875 = GOOD SUCTION
+Suction on: true
+Suction: 17219.640625 = GOOD SUCTION
+Suction on: true
+Suction: 17199.250000 = GOOD SUCTION
+Suction on: true
+Suction: 17179.421875 = GOOD SUCTION
+Suction on: true
+Suction: 17159.578125 = GOOD SUCTION
+Suction on: true
+Suction: 17139.671875 = GOOD SUCTION
+Suction on: true
+Suction: 17120.078125 = GOOD SUCTION
+Suction on: true
+Suction: 17100.000000 = GOOD SUCTION
+Suction on: true
+Suction: 17079.906250 = GOOD SUCTION
+Suction on: true
+Suction: 17059.734375 = GOOD SUCTION
+Suction on: true
+Suction: 17039.531250 = GOOD SUCTION
+Suction on: true
+Suction: 17019.515625 = GOOD SUCTION
+Suction on: true
+Suction: 16999.437500 = GOOD SUCTION
+Suction on: true
+Suction: 16979.609375 = GOOD SUCTION
+Suction on: true
+Suction: 16959.609375 = GOOD SUCTION
+Suction on: true
+Suction: 16939.921875 = GOOD SUCTION
+Suction on: true
+Suction: 16920.000000 = GOOD SUCTION
+Suction on: true
+Suction: 16899.875000 = GOOD SUCTION
+Suction on: true
+Suction: 16879.921875 = GOOD SUCTION
+Suction on: true
+Suction: 16860.062500 = GOOD SUCTION
+Suction on: true
+Suction: 16839.843750 = GOOD SUCTION
+Suction on: true
+Suction: 16819.937500 = GOOD SUCTION
+Suction on: true
+Suction: 16799.562500 = GOOD SUCTION
+Suction on: true
+Suction: 16779.312500 = GOOD SUCTION
+Suction on: true
+Suction: 16759.015625 = GOOD SUCTION
+Suction on: true
+Suction: 16738.828125 = GOOD SUCTION
+Suction on: true
+Suction: 16719.234375 = GOOD SUCTION
+Suction on: true
+Suction: 16699.265625 = GOOD SUCTION
+Suction on: true
+Suction: 16679.140625 = GOOD SUCTION
+Suction on: true
+Suction: 16659.140625 = GOOD SUCTION
+Suction on: true
+Suction: 16639.078125 = GOOD SUCTION
+Suction on: true
+Suction: 16619.218750 = GOOD SUCTION
+Suction on: true
+Suction: 16599.281250 = GOOD SUCTION
+Suction on: true
+Suction: 16579.296875 = GOOD SUCTION
+Suction on: true
+Suction: 16559.390625 = GOOD SUCTION
+Suction on: true
+Suction: 16549.609375 = GOOD SUCTION
+(143500) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_Z_CLEARANCE
+Currently Idle X: -330 Y: -360 Z: 0
+(143501) Number of items picked: 0 Status state: PC_MOVING_TO_DROPOFF_XY
+(145521) Number of items picked: 0 Status state: PC_AT_DROPOFF_XY
+Currently Idle X: -939 Y: -360 Z: 0
+(145522) Number of items picked: 0 Status state: PC_MOVING_TO_DROPOFF_XYZ
+(148371) Number of items picked: 0 Status state: PC_AT_DROPOFF_XYZ
+Currently Idle X: -939 Y: -360 Z: -305
+Command received: 9
+Sent command to robot
+(149309) Number of items picked: 1 Status state: STATE UNDEFINED
+Currently Idle X: -939 Y: -360 Z: -305
+Suction on: false
+Suction: 16912.312500 = GOOD SUCTION
+Suction on: false
+Suction: 17162.718750 = GOOD SUCTION
+Suction on: false
+Suction: 17413.453125 = GOOD SUCTION
+Suction on: false
+Suction: 17664.187500 = GOOD SUCTION
+Suction on: false
+Suction: 17914.359375 = GOOD SUCTION
+Suction on: false
+Suction: 18164.890625 = GOOD SUCTION
+Suction on: false
+Suction: 18415.140625 = GOOD SUCTION
+Suction on: false
+Suction: 18665.453125 = GOOD SUCTION
+Suction on: false
+Suction: 18916.015625 = GOOD SUCTION
+Suction on: false
+Suction: 19166.640625 = GOOD SUCTION
+Suction on: false
+Suction: 19417.265625 = GOOD SUCTION
+Suction on: false
+Suction: 19667.656250 = GOOD SUCTION
+Suction on: false
+Suction: 19918.062500 = GOOD SUCTION
+Suction on: false
+Suction: 20168.562500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20419.218750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20669.671875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20920.171875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21170.671875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21421.109375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21671.390625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21921.921875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22172.109375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22422.453125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22672.796875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22923.296875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23173.562500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23424.000000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23674.406250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23924.828125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24175.421875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24426.015625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24676.609375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24926.937500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25177.140625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25427.187500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25677.734375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25928.281250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26178.656250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26429.328125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26679.718750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26930.140625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 27180.343750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 27431.046875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 27681.750000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 27932.265625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 28182.890625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 28433.656250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 28684.218750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 28934.281250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 29184.343750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 29434.609375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 29685.062500 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 29935.484375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 30185.562500 = BAD SUCTION
+Suction on: false
+Suction: 30436.375000 = BAD SUCTION
+Suction on: false
+Suction: 30686.984375 = BAD SUCTION
+Suction on: false
+Suction: 30937.593750 = BAD SUCTION
+Suction on: false
+Suction: 31187.687500 = BAD SUCTION
+Suction on: false
+Suction: 31438.328125 = BAD SUCTION
+Suction on: false
+Suction: 31688.531250 = BAD SUCTION
+Suction on: false
+Suction: 31939.015625 = BAD SUCTION
+Suction on: false
+Suction: 32189.546875 = BAD SUCTION
+Suction on: false
+Suction: 32440.078125 = BAD SUCTION
+Suction on: false
+Suction: 32690.750000 = BAD SUCTION
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+
+ROBOT 100
+=========
+Picked until found item, failed once drop command was issued
+
+Command Help:
+estop:		Immediately stops machine motion and requires a zero return to resume picking.
+pick:		Begins the pick sequence, if we have been zeroed, and we're waiting in the ready state.
+drop:		Turns off the gripper if we're waiting in the drop location after a pick. Returns back to the staging area for the next pick after dropping the item.
+newbox:		Resets the target generation to the top of the box. This is necessary after all pick locations have been attempted.
+status:		Reports the current state of the machine and number of items picked.
+zero:		Zero returns the machine.
+zneeded:	Zero returns the machine only if it is needed.
+Configuration sent.
+======== Errors ========
+Flagged Error: EF_UNDERVOLTAGE_LOCKOUT
+Number of errors: 1
+(1) Number of items picked: 0 Status state: PC_NEEDS_ZERO
+Currently Idle X: 0 Y: 0 Z: 0
+Suction on: false
+Suction: 32767.000000 = BAD SUCTION
+Command received: 6
+Sent command to robot
+(13735) Number of items picked: 0 Status state: PC_ZERO_RETURN_WAIT
+(43477) Number of items picked: 0 Status state: PC_READY
+Currently Idle X: -655 Y: -360 Z: -110
+Command received: 2
+Sent command to robot
+(52581) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(52959) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(53447) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -630 Y: -360 Z: -90
+(53448) Number of items picked: 0 Status state: PC_PROBING
+(62619) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(65993) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -630 Y: -360 Z: 0
+(65994) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(66589) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(67695) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -570 Y: -360 Z: -90
+(67696) Number of items picked: 0 Status state: PC_PROBING
+(76862) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(80236) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -570 Y: -360 Z: 0
+(80237) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(80832) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(81938) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -510 Y: -360 Z: -90
+(81939) Number of items picked: 0 Status state: PC_PROBING
+(91105) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+(94478) Number of items picked: 0 Status state: PC_PICK_COMMAND_RECEIVED
+Currently Idle X: -510 Y: -360 Z: 0
+(94479) Number of items picked: 0 Status state: PC_TARGET_FOUND
+(95074) Number of items picked: 0 Status state: PC_MOVING_ABOVE_PICK
+(96180) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_XY_ABOVE_Z
+Currently Idle X: -450 Y: -360 Z: -90
+(96181) Number of items picked: 0 Status state: PC_PROBING
+Suction on: true
+Suction: 32746.421875 = BAD SUCTION
+Suction on: true
+Suction: 32725.875000 = BAD SUCTION
+Suction on: true
+Suction: 32705.500000 = BAD SUCTION
+Suction on: true
+Suction: 32685.156250 = BAD SUCTION
+Suction on: true
+Suction: 32664.812500 = BAD SUCTION
+Suction on: true
+Suction: 32644.468750 = BAD SUCTION
+Suction on: true
+Suction: 32623.937500 = BAD SUCTION
+Suction on: true
+Suction: 32603.625000 = BAD SUCTION
+Suction on: true
+Suction: 32583.046875 = BAD SUCTION
+Suction on: true
+Suction: 32562.781250 = BAD SUCTION
+Suction on: true
+Suction: 32542.515625 = BAD SUCTION
+Suction on: true
+Suction: 32522.093750 = BAD SUCTION
+Suction on: true
+Suction: 32501.578125 = BAD SUCTION
+Suction on: true
+Suction: 32481.156250 = BAD SUCTION
+Suction on: true
+Suction: 32460.656250 = BAD SUCTION
+Suction on: true
+Suction: 32440.125000 = BAD SUCTION
+Suction on: true
+Suction: 32419.703125 = BAD SUCTION
+Suction on: true
+Suction: 32399.281250 = BAD SUCTION
+Suction on: true
+Suction: 32378.953125 = BAD SUCTION
+Suction on: true
+Suction: 32358.437500 = BAD SUCTION
+Suction on: true
+Suction: 32338.062500 = BAD SUCTION
+Suction on: true
+Suction: 32317.781250 = BAD SUCTION
+Suction on: true
+Suction: 32297.546875 = BAD SUCTION
+Suction on: true
+Suction: 32277.125000 = BAD SUCTION
+Suction on: true
+Suction: 32256.703125 = BAD SUCTION
+Suction on: true
+Suction: 32236.421875 = BAD SUCTION
+Suction on: true
+Suction: 32216.078125 = BAD SUCTION
+Suction on: true
+Suction: 32195.531250 = BAD SUCTION
+Suction on: true
+Suction: 32175.015625 = BAD SUCTION
+Suction on: true
+Suction: 32154.515625 = BAD SUCTION
+Suction on: true
+Suction: 32134.015625 = BAD SUCTION
+Suction on: true
+Suction: 32113.484375 = BAD SUCTION
+Suction on: true
+Suction: 32093.062500 = BAD SUCTION
+Suction on: true
+Suction: 32072.609375 = BAD SUCTION
+Suction on: true
+Suction: 32052.046875 = BAD SUCTION
+Suction on: true
+Suction: 32031.531250 = BAD SUCTION
+Suction on: true
+Suction: 32011.140625 = BAD SUCTION
+Suction on: true
+Suction: 31990.750000 = BAD SUCTION
+Suction on: true
+Suction: 31970.218750 = BAD SUCTION
+Suction on: true
+Suction: 31949.671875 = BAD SUCTION
+Suction on: true
+Suction: 31929.171875 = BAD SUCTION
+Suction on: true
+Suction: 31908.687500 = BAD SUCTION
+Suction on: true
+Suction: 31888.234375 = BAD SUCTION
+Suction on: true
+Suction: 31867.781250 = BAD SUCTION
+Suction on: true
+Suction: 31847.296875 = BAD SUCTION
+Suction on: true
+Suction: 31826.828125 = BAD SUCTION
+Suction on: true
+Suction: 31806.203125 = BAD SUCTION
+Suction on: true
+Suction: 31785.750000 = BAD SUCTION
+Suction on: true
+Suction: 31765.265625 = BAD SUCTION
+Suction on: true
+Suction: 31744.828125 = BAD SUCTION
+Suction on: true
+Suction: 31724.390625 = BAD SUCTION
+Suction on: true
+Suction: 31703.796875 = BAD SUCTION
+Suction on: true
+Suction: 31683.359375 = BAD SUCTION
+Suction on: true
+Suction: 31662.906250 = BAD SUCTION
+Suction on: true
+Suction: 31642.578125 = BAD SUCTION
+Suction on: true
+Suction: 31622.093750 = BAD SUCTION
+Suction on: true
+Suction: 31601.609375 = BAD SUCTION
+Suction on: true
+Suction: 31581.203125 = BAD SUCTION
+Suction on: true
+Suction: 31560.609375 = BAD SUCTION
+Suction on: true
+Suction: 31540.046875 = BAD SUCTION
+Suction on: true
+Suction: 31519.578125 = BAD SUCTION
+Suction on: true
+Suction: 31499.031250 = BAD SUCTION
+Suction on: true
+Suction: 31478.468750 = BAD SUCTION
+Suction on: true
+Suction: 31457.906250 = BAD SUCTION
+Suction on: true
+Suction: 31325.687500 = BAD SUCTION
+Suction on: true
+Suction: 31048.468750 = BAD SUCTION
+Suction on: true
+Suction: 30771.203125 = BAD SUCTION
+Suction on: true
+Suction: 30493.890625 = BAD SUCTION
+Suction on: true
+Suction: 30216.546875 = BAD SUCTION
+Suction on: true
+Suction: 29939.140625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29661.875000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29384.718750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 29107.343750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28830.218750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28552.906250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 28275.531250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27998.250000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27721.031250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27443.906250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 27166.640625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26889.375000 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26611.953125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26334.468750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 26057.312500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25779.937500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25502.828125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 25225.734375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24948.781250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24671.781250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24394.656250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 24117.578125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23840.281250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23563.015625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23285.687500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 23008.531250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22731.531250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22454.390625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 22177.218750 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21899.937500 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21622.906250 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21345.828125 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 21068.640625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20791.546875 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20514.484375 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 20237.390625 = INDETERMINATE SUCTION
+Suction on: true
+Suction: 19959.968750 = GOOD SUCTION
+(105214) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Currently Idle X: -450 Y: -360 Z: -370
+Suction on: true
+Suction: 19682.906250 = GOOD SUCTION
+(105215) Number of items picked: 0 Status state: PC_HAS_ITEM
+Currently Idle X: -450 Y: -360 Z: -370
+Suction on: true
+Suction: 19405.890625 = GOOD SUCTION
+(105216) Number of items picked: 0 Status state: PC_WAIT_FOR_MOTION
+Suction on: true
+Suction: 19128.718750 = GOOD SUCTION
+Suction on: true
+Suction: 18851.546875 = GOOD SUCTION
+Suction on: true
+Suction: 18573.921875 = GOOD SUCTION
+Suction on: true
+Suction: 18296.343750 = GOOD SUCTION
+Suction on: true
+Suction: 18018.546875 = GOOD SUCTION
+Suction on: true
+Suction: 17740.828125 = GOOD SUCTION
+Suction on: true
+Suction: 17462.843750 = GOOD SUCTION
+Suction on: true
+Suction: 17184.812500 = GOOD SUCTION
+Suction on: true
+Suction: 16906.859375 = GOOD SUCTION
+Suction on: true
+Suction: 16629.218750 = GOOD SUCTION
+Suction on: true
+Suction: 16351.406250 = GOOD SUCTION
+Suction on: true
+Suction: 16073.484375 = GOOD SUCTION
+Suction on: true
+Suction: 15795.906250 = GOOD SUCTION
+Suction on: true
+Suction: 15518.031250 = GOOD SUCTION
+Suction on: true
+Suction: 15240.125000 = GOOD SUCTION
+Suction on: true
+Suction: 14962.375000 = GOOD SUCTION
+Suction on: true
+Suction: 14684.671875 = GOOD SUCTION
+Suction on: true
+Suction: 14407.062500 = GOOD SUCTION
+Suction on: true
+Suction: 14129.093750 = GOOD SUCTION
+Suction on: true
+Suction: 13851.343750 = GOOD SUCTION
+Suction on: true
+Suction: 13712.109375 = GOOD SUCTION
+Suction on: true
+Suction: 13667.656250 = GOOD SUCTION
+Suction on: true
+Suction: 13655.375000 = GOOD SUCTION
+Suction on: true
+Suction: 13643.234375 = GOOD SUCTION
+Suction on: true
+Suction: 13631.312500 = GOOD SUCTION
+Suction on: true
+Suction: 13619.296875 = GOOD SUCTION
+Suction on: true
+Suction: 13607.187500 = GOOD SUCTION
+Suction on: true
+Suction: 13594.750000 = GOOD SUCTION
+Suction on: true
+Suction: 13582.828125 = GOOD SUCTION
+Suction on: true
+Suction: 13570.750000 = GOOD SUCTION
+Suction on: true
+Suction: 13558.437500 = GOOD SUCTION
+Suction on: true
+Suction: 13546.250000 = GOOD SUCTION
+Suction on: true
+Suction: 13533.859375 = GOOD SUCTION
+Suction on: true
+Suction: 13521.640625 = GOOD SUCTION
+Suction on: true
+Suction: 13509.359375 = GOOD SUCTION
+Suction on: true
+Suction: 13497.281250 = GOOD SUCTION
+Suction on: true
+Suction: 13484.750000 = GOOD SUCTION
+Suction on: true
+Suction: 13472.359375 = GOOD SUCTION
+Suction on: true
+Suction: 13460.328125 = GOOD SUCTION
+Suction on: true
+Suction: 13447.953125 = GOOD SUCTION
+Suction on: true
+Suction: 13435.796875 = GOOD SUCTION
+Suction on: true
+Suction: 13423.515625 = GOOD SUCTION
+Suction on: true
+Suction: 13411.078125 = GOOD SUCTION
+Suction on: true
+Suction: 13398.859375 = GOOD SUCTION
+Suction on: true
+Suction: 13386.484375 = GOOD SUCTION
+Suction on: true
+Suction: 13374.093750 = GOOD SUCTION
+Suction on: true
+Suction: 13361.828125 = GOOD SUCTION
+Suction on: true
+Suction: 13349.765625 = GOOD SUCTION
+Suction on: true
+Suction: 13337.828125 = GOOD SUCTION
+Suction on: true
+Suction: 13325.421875 = GOOD SUCTION
+Suction on: true
+Suction: 13313.000000 = GOOD SUCTION
+Suction on: true
+Suction: 13300.765625 = GOOD SUCTION
+Suction on: true
+Suction: 13288.687500 = GOOD SUCTION
+Suction on: true
+Suction: 13276.609375 = GOOD SUCTION
+Suction on: true
+Suction: 13264.625000 = GOOD SUCTION
+Suction on: true
+Suction: 13252.296875 = GOOD SUCTION
+Suction on: true
+Suction: 13240.296875 = GOOD SUCTION
+Suction on: true
+Suction: 13227.968750 = GOOD SUCTION
+Suction on: true
+Suction: 13215.687500 = GOOD SUCTION
+Suction on: true
+Suction: 13203.265625 = GOOD SUCTION
+Suction on: true
+Suction: 13190.906250 = GOOD SUCTION
+Suction on: true
+Suction: 13178.843750 = GOOD SUCTION
+Suction on: true
+Suction: 13166.531250 = GOOD SUCTION
+Suction on: true
+Suction: 13154.140625 = GOOD SUCTION
+Suction on: true
+Suction: 13142.015625 = GOOD SUCTION
+Suction on: true
+Suction: 13130.015625 = GOOD SUCTION
+Suction on: true
+Suction: 13117.781250 = GOOD SUCTION
+Suction on: true
+Suction: 13105.562500 = GOOD SUCTION
+Suction on: true
+Suction: 13093.078125 = GOOD SUCTION
+Suction on: true
+Suction: 13080.812500 = GOOD SUCTION
+Suction on: true
+Suction: 13068.312500 = GOOD SUCTION
+Suction on: true
+Suction: 13055.843750 = GOOD SUCTION
+Suction on: true
+Suction: 13043.531250 = GOOD SUCTION
+Suction on: true
+Suction: 13031.234375 = GOOD SUCTION
+Suction on: true
+Suction: 13019.265625 = GOOD SUCTION
+Suction on: true
+Suction: 13007.218750 = GOOD SUCTION
+Suction on: true
+Suction: 12994.781250 = GOOD SUCTION
+Suction on: true
+Suction: 12982.500000 = GOOD SUCTION
+Suction on: true
+Suction: 12970.062500 = GOOD SUCTION
+Suction on: true
+Suction: 12957.703125 = GOOD SUCTION
+Suction on: true
+Suction: 12945.828125 = GOOD SUCTION
+Suction on: true
+Suction: 12933.718750 = GOOD SUCTION
+Suction on: true
+Suction: 12921.375000 = GOOD SUCTION
+Suction on: true
+Suction: 12909.062500 = GOOD SUCTION
+Suction on: true
+Suction: 12896.765625 = GOOD SUCTION
+Suction on: true
+Suction: 12885.296875 = GOOD SUCTION
+Suction on: true
+Suction: 12878.671875 = GOOD SUCTION
+Suction on: true
+Suction: 12872.125000 = GOOD SUCTION
+Suction on: true
+Suction: 12865.484375 = GOOD SUCTION
+Suction on: true
+Suction: 12858.921875 = GOOD SUCTION
+Suction on: true
+Suction: 12852.500000 = GOOD SUCTION
+Suction on: true
+Suction: 12845.953125 = GOOD SUCTION
+Suction on: true
+Suction: 12839.437500 = GOOD SUCTION
+Suction on: true
+Suction: 12832.984375 = GOOD SUCTION
+Suction on: true
+Suction: 12825.953125 = GOOD SUCTION
+Suction on: true
+Suction: 12819.328125 = GOOD SUCTION
+Suction on: true
+Suction: 12812.921875 = GOOD SUCTION
+Suction on: true
+Suction: 12806.562500 = GOOD SUCTION
+Suction on: true
+Suction: 12800.140625 = GOOD SUCTION
+Suction on: true
+Suction: 12793.734375 = GOOD SUCTION
+Suction on: true
+Suction: 12787.218750 = GOOD SUCTION
+Suction on: true
+Suction: 12780.562500 = GOOD SUCTION
+Suction on: true
+Suction: 12773.625000 = GOOD SUCTION
+Suction on: true
+Suction: 12766.953125 = GOOD SUCTION
+Suction on: true
+Suction: 12760.390625 = GOOD SUCTION
+Suction on: true
+Suction: 12754.000000 = GOOD SUCTION
+Suction on: true
+Suction: 12747.625000 = GOOD SUCTION
+Suction on: true
+Suction: 12741.140625 = GOOD SUCTION
+Suction on: true
+Suction: 12734.500000 = GOOD SUCTION
+Suction on: true
+Suction: 12728.015625 = GOOD SUCTION
+Suction on: true
+Suction: 12721.640625 = GOOD SUCTION
+Suction on: true
+Suction: 12715.328125 = GOOD SUCTION
+Suction on: true
+Suction: 12708.765625 = GOOD SUCTION
+Suction on: true
+Suction: 12702.031250 = GOOD SUCTION
+Suction on: true
+Suction: 12695.765625 = GOOD SUCTION
+Suction on: true
+Suction: 12689.453125 = GOOD SUCTION
+Suction on: true
+Suction: 12682.734375 = GOOD SUCTION
+Suction on: true
+Suction: 12675.968750 = GOOD SUCTION
+Suction on: true
+Suction: 12669.437500 = GOOD SUCTION
+Suction on: true
+Suction: 12663.171875 = GOOD SUCTION
+Suction on: true
+Suction: 12656.734375 = GOOD SUCTION
+Suction on: true
+Suction: 12650.328125 = GOOD SUCTION
+Suction on: true
+Suction: 12643.703125 = GOOD SUCTION
+Suction on: true
+Suction: 12636.843750 = GOOD SUCTION
+Suction on: true
+Suction: 12630.359375 = GOOD SUCTION
+Suction on: true
+Suction: 12623.640625 = GOOD SUCTION
+Suction on: true
+Suction: 12617.062500 = GOOD SUCTION
+Suction on: true
+Suction: 12610.796875 = GOOD SUCTION
+Suction on: true
+Suction: 12604.593750 = GOOD SUCTION
+Suction on: true
+Suction: 12597.937500 = GOOD SUCTION
+Suction on: true
+Suction: 12591.234375 = GOOD SUCTION
+Suction on: true
+Suction: 12584.625000 = GOOD SUCTION
+Suction on: true
+Suction: 12577.921875 = GOOD SUCTION
+Suction on: true
+Suction: 12571.265625 = GOOD SUCTION
+Suction on: true
+Suction: 12564.656250 = GOOD SUCTION
+Suction on: true
+Suction: 12558.328125 = GOOD SUCTION
+Suction on: true
+Suction: 12551.468750 = GOOD SUCTION
+Suction on: true
+Suction: 12544.656250 = GOOD SUCTION
+Suction on: true
+Suction: 12537.859375 = GOOD SUCTION
+Suction on: true
+Suction: 12530.875000 = GOOD SUCTION
+Suction on: true
+Suction: 12524.265625 = GOOD SUCTION
+Suction on: true
+Suction: 12517.546875 = GOOD SUCTION
+Suction on: true
+Suction: 12511.078125 = GOOD SUCTION
+Suction on: true
+Suction: 12504.578125 = GOOD SUCTION
+Suction on: true
+Suction: 12497.796875 = GOOD SUCTION
+Suction on: true
+Suction: 12491.328125 = GOOD SUCTION
+Suction on: true
+Suction: 12484.578125 = GOOD SUCTION
+(108589) Number of items picked: 0 Status state: PC_AT_PICK_POSITION_Z_CLEARANCE
+Currently Idle X: -450 Y: -360 Z: 0
+(108590) Number of items picked: 0 Status state: PC_MOVING_TO_DROPOFF_XY
+(110351) Number of items picked: 0 Status state: PC_AT_DROPOFF_XY
+Currently Idle X: -939 Y: -360 Z: 0
+(110352) Number of items picked: 0 Status state: PC_MOVING_TO_DROPOFF_XYZ
+(113199) Number of items picked: 0 Status state: PC_AT_DROPOFF_XYZ
+Currently Idle X: -939 Y: -360 Z: -305
+Command received: 9
+Sent command to robot
+(114243) Number of items picked: 1 Status state: PC_AT_Z_CLEARANCE_RETURN
+(114244) Number of items picked: 1 Status state: STATE UNDEFINED
+Currently Idle X: -939 Y: -360 Z: -305
+Suction on: false
+Suction: 12759.796875 = GOOD SUCTION
+Suction on: false
+Suction: 13077.281250 = GOOD SUCTION
+Suction on: false
+Suction: 13394.781250 = GOOD SUCTION
+Suction on: false
+Suction: 13712.281250 = GOOD SUCTION
+Suction on: false
+Suction: 14029.750000 = GOOD SUCTION
+Suction on: false
+Suction: 14347.312500 = GOOD SUCTION
+Suction on: false
+Suction: 14665.031250 = GOOD SUCTION
+Suction on: false
+Suction: 14982.781250 = GOOD SUCTION
+Suction on: false
+Suction: 15300.312500 = GOOD SUCTION
+Suction on: false
+Suction: 15617.843750 = GOOD SUCTION
+Suction on: false
+Suction: 15935.500000 = GOOD SUCTION
+Suction on: false
+Suction: 16253.203125 = GOOD SUCTION
+Suction on: false
+Suction: 16570.703125 = GOOD SUCTION
+Suction on: false
+Suction: 16888.109375 = GOOD SUCTION
+Suction on: false
+Suction: 17205.687500 = GOOD SUCTION
+Suction on: false
+Suction: 17523.265625 = GOOD SUCTION
+Suction on: false
+Suction: 17840.843750 = GOOD SUCTION
+Suction on: false
+Suction: 18158.203125 = GOOD SUCTION
+Suction on: false
+Suction: 18475.656250 = GOOD SUCTION
+Suction on: false
+Suction: 18793.187500 = GOOD SUCTION
+Suction on: false
+Suction: 19110.593750 = GOOD SUCTION
+Suction on: false
+Suction: 19428.125000 = GOOD SUCTION
+Suction on: false
+Suction: 19745.656250 = GOOD SUCTION
+Suction on: false
+Suction: 20063.375000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20380.578125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 20698.203125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21015.828125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21333.578125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21651.281250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 21968.984375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22286.359375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22603.906250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 22921.375000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23239.093750 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23556.734375 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 23874.375000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24192.015625 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24509.578125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 24827.031250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25144.531250 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25462.203125 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 25779.625000 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26097.046875 = INDETERMINATE SUCTION
+Suction on: false
+Suction: 26414.484375 
+
